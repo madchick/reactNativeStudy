@@ -1,9 +1,11 @@
+# Expo
+.expo/
+__generated__
+
 # OSX
-#
 .DS_Store
 
 # Xcode
-#
 build/
 *.pbxuser
 !default.pbxuser
@@ -23,7 +25,6 @@ DerivedData
 project.xcworkspace
 
 # Android/IntelliJ
-#
 build/
 .idea
 .gradle
@@ -31,7 +32,6 @@ local.properties
 *.iml
 
 # node.js
-#
 node_modules/
 package-lock.json # include if you are using npm - don't use both yarn and npm
 npm-debug.log
@@ -49,10 +49,12 @@ buck-out/
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
 # https://docs.fastlane.tools/best-practices/source-control/
-
 */fastlane/report.xml
 */fastlane/Preview.html
 */fastlane/screenshots
 
 # Bundle artifact
 *.jsbundle
+
+
+
