@@ -7,7 +7,8 @@ npm install -g expo-cli
 
 expo init webviewTest
 
-expo install react-native-webview
+expo install react-native-webview  
+expo install expo-location
 
 npm start
 
